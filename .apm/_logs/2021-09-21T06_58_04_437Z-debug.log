@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/share/atom/resources/app/apm/bin/node',
+1 verbose cli   '/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/home/jockill/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/home/jockill/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/colorguide/versions/0.2.0/tarball',
+1 verbose cli   '--target=6.1.12',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v12.4.0
+4 verbose npm-session 3d13df2ff465a116
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://codeload.github.com/morbius1st/colorguide/legacy.tar.gz/refs/tags/v0.2.0 1397ms (from cache)
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/colorguide/versions/0.2.0/tarball fetched in 1416ms
+9 timing stage:loadCurrentTree Completed in 1443ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule colorguide@0.2.0 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/atom-space-pen-views 46ms (from cache)
+18 http fetch GET 200 https://registry.npmjs.org/underscore-plus 44ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/fs-plus 42ms (from cache)
+20 http fetch GET 200 https://registry.npmjs.org/jquery 44ms (from cache)
+21 http fetch GET 200 https://registry.npmjs.org/path 50ms (from cache)
+22 http fetch GET 200 https://registry.npmjs.org/mathjs 49ms (from cache)
+23 http fetch GET 200 https://registry.npmjs.org/tool-bar 54ms (from cache)
+24 silly fetchPackageMetaData error for tool-bar@^1.0.0 No valid versions available for tool-bar
+25 silly pacote range manifest for atom-space-pen-views@^2.0.0 fetched in 74ms
+26 silly resolveWithNewModule atom-space-pen-views@2.2.0 checking installable status
+27 silly pacote range manifest for fs-plus@^2.8.2 fetched in 69ms
+28 silly resolveWithNewModule fs-plus@2.10.1 checking installable status
+29 silly pacote range manifest for underscore-plus@^1.0.0 fetched in 73ms
+30 silly resolveWithNewModule underscore-plus@1.7.0 checking installable status
+31 silly pacote range manifest for jquery@^2.1.4 fetched in 72ms
+32 silly resolveWithNewModule jquery@2.2.4 checking installable status
+33 silly pacote range manifest for path@^0.12.7 fetched in 71ms
+34 silly resolveWithNewModule path@0.12.7 checking installable status
+35 silly pacote range manifest for mathjs@^1.5.0 fetched in 69ms
+36 silly resolveWithNewModule mathjs@1.7.1 checking installable status
+37 timing stage:rollbackFailedOptional Completed in 1ms
+38 timing stage:runTopLevelLifecycles Completed in 1541ms
+39 silly saveTree apm-install-dir-2021821-3507-1yqqcld.1agf
+39 silly saveTree └─┬ colorguide@0.2.0
+39 silly saveTree   ├── atom-space-pen-views@2.2.0
+39 silly saveTree   ├─┬ fs-plus@2.10.1
+39 silly saveTree   │ └── underscore-plus@1.7.0
+39 silly saveTree   ├── jquery@2.2.4
+39 silly saveTree   ├── mathjs@1.7.1
+39 silly saveTree   ├── path@0.12.7
+39 silly saveTree   └── underscore-plus@1.7.0
+40 verbose type range
+41 verbose stack tool-bar: No valid versions available for tool-bar
+41 verbose stack     at pickManifest (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-pick-manifest/index.js:39:11)
+41 verbose stack     at /usr/share/atom/resources/app/apm/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14
+41 verbose stack     at tryCatcher (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+41 verbose stack     at Promise._settlePromiseFromHandler (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+41 verbose stack     at Promise._settlePromise (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+41 verbose stack     at Promise._settlePromise0 (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+41 verbose stack     at Promise._settlePromises (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+41 verbose stack     at _drainQueueStep (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+41 verbose stack     at _drainQueue (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+41 verbose stack     at Async._drainQueues (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+41 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+41 verbose stack     at processImmediate (internal/timers.js:439:21)
+42 verbose cwd /tmp/apm-install-dir-2021821-3507-1yqqcld.1agf
+43 verbose Linux 5.8.0-63-generic
+44 verbose argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/home/jockill/.atom/.apm/.apmrc" "--userconfig" "/home/jockill/.atom/.apmrc" "install" "https://www.atom.io/api/packages/colorguide/versions/0.2.0/tarball" "--target=6.1.12" "--disturl=https://atom.io/download/electron" "--arch=x64" "--global-style"
+45 verbose node v12.4.0
+46 verbose npm  v6.14.8
+47 error code ENOVERSIONS
+48 error No valid versions available for tool-bar
+49 verbose exit [ 1, true ]

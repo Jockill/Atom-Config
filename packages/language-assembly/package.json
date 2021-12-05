@@ -1,0 +1,40 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+  "_id": "language-assembly@0.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ouLQm2DB4QzOBFqqtqgzuPyqaDrTjFOjlWZYP3xeKYV1y1Uv6edOh5EjH3XeS9c7hf0UlHqmyXClFFsxRaQ7SA==",
+  "_location": "/language-assembly",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+  "_shasum": "ed80126e3284cd62b5ca4bc66c87e0659da17b14",
+  "_spec": "https://www.atom.io/api/packages/language-assembly/versions/0.7.2/tarball",
+  "_where": "/tmp/apm-install-dir-2021821-3387-121duba.dtlek",
+  "bugs": {
+    "url": "https://github.com/oliverkeeble/atom-language-assembly/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Provides syntax highlighing for assembly language.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/oliverkeeble/atom-language-assembly#readme",
+  "license": "Public Domain",
+  "name": "language-assembly",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverkeeble/atom-language-assembly.git"
+  },
+  "version": "0.7.2"
+}

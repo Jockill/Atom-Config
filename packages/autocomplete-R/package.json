@@ -1,0 +1,60 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+  "_id": "autocomplete-R@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-BlANm2/+xfIWVWOUdbD+KQUJcmIi1CAU9cABqcqfR6SmgF9+9kPnVGMBz+x5gnQPfNts7cmdV1HDegg5YLAiJA==",
+  "_location": "/autocomplete-R",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+  "_shasum": "330dd6fd375df6d2d5d4f3198f0f3f6360189953",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-r/versions/0.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-202197-3054-nk8eg4.c9qyj",
+  "author": {
+    "name": "Guillaume Chaumet"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumechaumet/autocomplete-R/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "autocomplete+ provider for R",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/guillaumechaumet/autocomplete-R#readme",
+  "keywords": [
+    "R",
+    "R stat",
+    "autocomplete",
+    "autocomplete-plus",
+    "autocomplete+",
+    "atom"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-R",
+  "private": false,
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "url": "git+https://github.com/guillaumechaumet/autocomplete-R.git"
+  },
+  "version": "0.6.0"
+}

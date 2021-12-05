@@ -1,0 +1,33 @@
+"*":
+  "atom-markdown-auto-preview":
+    behaviour:
+      dontSwitch: false
+      withShift: false
+  "bracket-matcher": {}
+  core:
+    autoHideMenuBar: true
+    closeDeletedFileTabs: true
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontSize: 15
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "16289b26-73d3-47e1-9c06-24afbb83632a"
+  "find-and-replace":
+    enablePCRE2: true
+  fonts: {}
+  "seti-ui":
+    compactView: true
+    displayIgnored: false
+    hideProjectTab: true
+    themeColor: "Red"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
